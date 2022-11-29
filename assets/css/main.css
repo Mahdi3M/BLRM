@@ -1,0 +1,31 @@
+/* NAVBAR */
+
+.navbar
+{
+    background-color: #075E24;
+}
+
+.navbar-brand{
+    color: white !important;
+    margin-left: 10px;
+    font-size: 15px;
+    justify-content:first baseline !important;
+}
+
+.navbar-nav a{
+    color: white !important;
+}
+
+.navbar-collapse{
+    position: relative !important;
+    float: right !important;
+}
+
+.navbar .container-fluid{
+    width: 80%;
+}
+
+.navbar img{
+    width: auto;
+    height: 40px;
+}
