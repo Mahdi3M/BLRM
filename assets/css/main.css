@@ -29,3 +29,15 @@
     width: auto;
     height: 40px;
 }
+
+.navbar .nav-item .active
+{
+    color: yellow !important;
+    font-weight: 700;
+}
+
+.navbar .nav-item .nav-link:hover
+{
+    color: yellow !important;
+    /* font-weight: 700; */
+}
