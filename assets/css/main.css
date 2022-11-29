@@ -16,9 +16,8 @@
     color: white !important;
 }
 
-.navbar-collapse{
-    position: relative !important;
-    float: right !important;
+.navbar .navbar-collapse{
+    justify-content: end;
 }
 
 .navbar .container-fluid{
