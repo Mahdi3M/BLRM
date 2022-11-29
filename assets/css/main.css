@@ -28,3 +28,27 @@
     width: auto;
     height: 40px;
 }
+
+.navbar-nav .active
+{
+    color: yellow !important;
+    font-weight: 700;
+}
+
+.nav-link:hover
+{
+    color: yellow !important;
+}
+
+/* For header2.php */
+/* .navbar .nav-item .active
+{
+    color: yellow !important;
+    font-weight: 700;
+}
+
+.navbar .nav-item .nav-link:hover
+{
+    color: yellow !important;
+} */
+/* end header2.php */
