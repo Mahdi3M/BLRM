@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="assets/img/logo.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -47,7 +48,7 @@
                                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
                                     </div>
-                                    
+
 
                                     <div class="form-floating mb-3">
                                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
@@ -58,7 +59,7 @@
                                         <label for="floatingPassword">Confirm Password</label>
                                     </div>
 
-                                    
+
 
                                     <div class="form-check d-flex justify-content-center mb-5">
                                         <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
@@ -68,7 +69,7 @@
                                     </div>
 
                                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                        <button type="button" class="btn btn-primary btn-lg">Register</button>
+                                        <button type="button" class="btn btn-primary btn-lg">Sign up</button>
                                     </div>
 
                                 </form>
