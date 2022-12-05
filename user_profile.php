@@ -13,6 +13,7 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -47,8 +48,8 @@
                         <textarea placeholder="Whats in your mind today?" rows="2" class="form-control input-lg p-text-area"></textarea>
                     </form> -->
                     <footer class="panel-footer">
-                        <button class="btn btn-warning pull-right">Post</button>
-                        <ul class="nav nav-pills">
+                        <!-- <button class="btn btn-warning pull-right">Post</button> -->
+                        <!-- <ul class="nav nav-pills">
                             <li>
                                 <a href="#"><i class="fa fa-map-marker"></i></a>
                             </li>
@@ -61,7 +62,7 @@
                             <li>
                                 <a href="#"><i class="fa fa-microphone"></i></a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </footer>
                 </div>
                 <div class="panel">
