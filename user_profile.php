@@ -162,6 +162,18 @@
         </div>
     </div>
 
+    <div class="row d-flex justify-content-around m-3">
+        <div class="col d-flex justify-content-center">
+            <button type="button" class="btn btn-primary">Apply for Token</button>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <button type="button" class="btn btn-primary">View Certificate</button>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <button type="button" class="btn btn-primary">View Transactions</button>
+        </div>
+    </div>
+
 
     <?php include 'footer.php'; ?>
 
