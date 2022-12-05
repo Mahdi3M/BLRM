@@ -19,6 +19,16 @@
 <body>
     <?php include 'header.php'; ?>
 
+    <script>
+        $("#homenav").removeClass("active");
+        // $("#signinnav").removeClass("active");
+        $("#contactsnav").removeClass("active");
+
+        $("#signinnav").addClass("active");
+
+        //document.getElementById
+    </script>
+
 
     <!-- <section class="vh-100" style="background-color: #eee;"> -->
     <div class="container h-100">
@@ -74,7 +84,6 @@
         </div>
     </div>
     <!-- </section> -->
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
