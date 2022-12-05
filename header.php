@@ -9,7 +9,7 @@
       <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="index.php" id="homenav">Home</a>
           <a class="nav-link" href="signin.php" id="signinnav">Sign In</a>
-          <a class="nav-link" href="#"  id="contactsnav">Contacts</a>
+          <a class="nav-link" href="#footer"  id="contactsnav">Contacts</a>
       </div>
     </div>
   </div>
