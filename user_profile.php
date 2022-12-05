@@ -19,6 +19,9 @@
 <body>
     <?php include 'header.php'; ?>
 
+
+    <!-- Card start -->
+
     <div class="container bootstrap snippets bootdey" style="margin-top: 80px;">
         <div class="row">
             <div class="profile-nav col-md-3">
@@ -34,15 +37,15 @@
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active"><a href="#"> <i class="fa fa-user"></i> Profile</a></li>
                         <li><a href="#"> <i class="fa fa-calendar"></i> Recent Activity <span class="label label-warning pull-right r-activity">9</span></a></li>
-                        <li><a href="#"> <i class="fa fa-edit"></i> Edit profile</a></li>
+                        <li><a href="user_profile_settings.php"> <i class="fa fa-edit"></i> Edit profile</a></li>
                     </ul>
                 </div>
             </div>
             <div class="profile-info col-md-9">
                 <div class="panel">
-                    <form>
+                    <!-- <form>
                         <textarea placeholder="Whats in your mind today?" rows="2" class="form-control input-lg p-text-area"></textarea>
-                    </form>
+                    </form> -->
                     <footer class="panel-footer">
                         <button class="btn btn-warning pull-right">Post</button>
                         <ul class="nav nav-pills">
@@ -158,6 +161,9 @@
             </div>
         </div>
     </div>
+
+
+    <?php include 'footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

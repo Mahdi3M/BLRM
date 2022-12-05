@@ -59,9 +59,9 @@
                                    
 
                                     <div class="form-check d-flex justify-content-center mb-5">
-                                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                                        <!-- <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" /> -->
                                         <label class="form-check-label" for="form2Example3">
-                                            I agree all statements in <a href="#!">Terms of service</a>
+                                            Don't have an account? <a href="signup.php">Create one</a>
                                         </label>
                                     </div>
 
@@ -84,6 +84,8 @@
         </div>
     </div>
     <!-- </section> -->
+
+    <?php include 'footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
