@@ -66,9 +66,9 @@
                     </footer>
                 </div>
                 <div class="panel">
-                    <div class="bio-graph-heading">
+                    <!-- <div class="bio-graph-heading">
                         Aliquam ac magna metus. Nam sed arcu non tellus fringilla fringilla ut vel ispum. Aliquam ac magna metus.
-                    </div>
+                    </div> -->
                     <div class="panel-body bio-graph-info">
                         <h1>Bio Graph</h1>
                         <div class="row">
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <!-- <div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="panel">
@@ -158,14 +158,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
-    <div class="row d-flex justify-content-around m-3">
+    <div class="row d-flex justify-content-around m-5">
         <div class="col d-flex justify-content-center">
-            <button type="button" class="btn btn-primary">Apply for Token</button>
+            <button type="button" class="btn btn-primary" onclick="location.href = 'paybill.php'">Apply for Token</button>
         </div>
         <div class="col d-flex justify-content-center">
             <button type="button" class="btn btn-primary">View Certificate</button>
@@ -177,6 +177,8 @@
 
 
     <?php include 'footer.php'; ?>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
