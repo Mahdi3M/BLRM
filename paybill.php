@@ -52,22 +52,22 @@
     <div class="container">
         <div style="margin-top: 80px;">
             <h1>Choose Your Billing Option</h1>
-            <div class="card-group">
+            <div class="card-group mt-5" >
                 <div class="card">
-                    <img src="assets/img/bkash.png" class="card-img-top" alt="..." height=300 width=300>
+                    <img src="assets/img/bkash.png" class="card-img-top" alt="..." height=200 width=200>
                     <div class="card-body">
                         <h5 class="card-title">Bkash</h5>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/img/rocket.png" class="card-img-top" alt="..." height=300 width=300>
+                    <img src="assets/img/rocket.png" class="card-img-top" alt="..." height=200 width=200>
                     <div class="card-body">
                         <h5 class="card-title">Nagad</h5>
                     
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/img/nagad.png" class="card-img-top" alt="..." height=300 width=300>
+                    <img src="assets/img/nagad.png" class="card-img-top" alt="..." height=200 width=200>
                     <div class="card-body">
                         <h5 class="card-title">Rocket</h5>
                         

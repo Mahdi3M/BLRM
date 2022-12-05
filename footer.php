@@ -9,11 +9,10 @@
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">
-                        Company name
+                        Blockchain Based Land Record
                     </h6>
                     <p>
-                        Here you can use rows and columns to organize your footer
-                        content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit.
                     </p>
                 </div>
@@ -22,7 +21,7 @@
                 <hr class="w-100 clearfix d-md-none" />
 
                 <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
                     <p>
                         <a class="text-white">MDBootstrap</a>
@@ -36,7 +35,7 @@
                     <p>
                         <a class="text-white">Bootstrap Angular</a>
                     </p>
-                </div>
+                </div> -->
                 <!-- Grid column -->
 
                 <hr class="w-100 clearfix d-md-none" />
@@ -47,7 +46,7 @@
                         Useful links
                     </h6>
                     <p>
-                        <a class="text-white">Your Account</a>
+                        <a class="text-white" href="user_profile.php">Your Account</a>
                     </p>
                     <p>
                         <a class="text-white">Become an Affiliate</a>
@@ -66,10 +65,10 @@
                 <!-- Grid column -->
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                    <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p><i class="fas fa-home mr-3"></i> Shahbag, Dhaka, Bangladesh</p>
                     <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-                    <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                    <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    <p><i class="fas fa-phone mr-3"></i> 011919191919</p>
+                    <p><i class="fas fa-print mr-3"></i> 011919123422</p>
                 </div>
                 <!-- Grid column -->
             </div>
@@ -87,7 +86,7 @@
                     <!-- Copyright -->
                     <div class="p-3">
                         © 2020 Copyright:
-                        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                        <a class="text-white" href="https://mdbootstrap.com/">Blockchain Based Land Record</a>
                     </div>
                     <!-- Copyright -->
                 </div>
