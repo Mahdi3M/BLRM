@@ -31,7 +31,9 @@
     </script>
 
 
+
     <!-- <section class="vh-100" style="background-color: #eee;"> -->
+
     <div class="container h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-lg-12 col-xl-11">
@@ -51,13 +53,13 @@
                                         <label for="floatingInput">NID</label>
                                     </div>
 
-                                    
+
                                     <div class="form-floating mb-3">
                                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                                         <label for="floatingPassword">Password</label>
                                     </div>
 
-                                   
+
 
                                     <div class="form-check d-flex justify-content-center mb-5">
                                         <!-- <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" /> -->
@@ -84,10 +86,12 @@
             </div>
         </div>
     </div>
+
     <!-- </section> -->
 
-    <?php include 'footer.php'; ?>
-
+    <div class="fixed-bottom">
+        <?php include 'footer.php'; ?>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
