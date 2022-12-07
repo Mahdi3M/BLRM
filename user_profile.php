@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -46,13 +47,13 @@
                             <p class="text-muted mb-1">Full Stack Actor</p>
                             <p class="text-muted mb-4">Canonbury Place, London</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <button type="button" class="btn btn-primary">Follow</button>
+                                <!-- <button type="button" class="btn btn-primary">Follow</button> -->
                                 <button type="button" class="btn btn-outline-primary ms-1" onclick="location.href = 'user_profile_settings.php'">Edit Profile</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-4 mb-lg-0">
-                        <div class="card-body p-0">
+                    <div class="mb-4 mb-lg-0">
+                        <!-- <div class="card-body p-0">
                             <ul class="list-group list-group-flush rounded-3">
                                 <li class="list-group-item d-flex justify-content-between align-items-center p-3 halkagrey">
                                     <i class="fas fa-globe fa-lg text-warning"></i>
@@ -75,6 +76,12 @@
                                     <p class="mb-0">mdbootstrap</p>
                                 </li>
                             </ul>
+                        </div> -->
+
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                            <button class="btn btn-primary" type="button">Apply for New Token</button>
+                            <button class="btn btn-primary" type="button">View Certificate</button>
+                            <button class="btn btn-primary" type="button">View Transactions</button>
                         </div>
                     </div>
                 </div>
@@ -101,10 +108,10 @@
                             <hr>
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <p class="mb-0">Phone</p>
+                                    <p class="mb-0">Date of Birth</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">(097) 234-5678</p>
+                                    <p class="text-muted mb-0">15 April, 1990</p>
                                 </div>
                             </div>
                             <hr>
@@ -113,7 +120,7 @@
                                     <p class="mb-0">Mobile</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">(098) 765-4321</p>
+                                    <p class="text-muted mb-0">(098) 765-4321<span style="color: green;"><i class="bi bi-check-circle-fill" style="margin-left:20px;"></i> verified</span></p>
                                 </div>
                             </div>
                             <hr>
