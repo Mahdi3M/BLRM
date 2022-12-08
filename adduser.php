@@ -17,6 +17,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -37,6 +38,24 @@
 
             $("#add_user").addClass("active");
         </script>
+
+
+        <div class="container" style="padding:20px">
+            <div class="titlebox">Enter User's NID No.</div>
+            <!-- <div class="input-box searchbox">
+                <input type="text" class="form-control">
+                <i class="fa fa-search"></i>
+            </div> -->
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary searchbutton" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+            </div>
+        </div>
+
+
+        
+
 
         <?php include 'footer.php'; ?>
     </div>

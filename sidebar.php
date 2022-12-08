@@ -7,7 +7,7 @@
         <a href="viewsection.php" class="list-group-item list-group-item-action py-2 ripple" id="view_section"><i
             class="fas fa-chart-bar fa-fw me-3"></i><span>View Section</span></a>
         <a href="adduser.php" class="list-group-item list-group-item-action py-2 ripple" id="add_user"><i
-            class="fas fa-users fa-fw me-3"></i><span>Add User</span></a>
+            class="fas fa-users fa-fw me-3"></i><span>Verify User</span></a>
     </div>
     </div>
 </nav>

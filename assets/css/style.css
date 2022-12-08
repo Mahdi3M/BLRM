@@ -155,3 +155,44 @@
     background-color: #eee;
 }
 
+
+/* searchbar */
+
+.input-box{
+    position: relative;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 13px;
+    top:15px;
+    color:#ced4da;
+  
+  }
+  
+  .form-control{
+  
+    height: 50px;
+    background-color:#eeeeee69;
+  }
+  
+  .form-control:focus{
+    background-color: #eeeeee69;
+    box-shadow: none;
+    border-color: #eee;
+  }
+
+  .searchbutton:hover
+  {
+    /* margin: 30px; */
+    background-color: rgb(42, 95, 37) !important;
+  }
+  
+  /* searchbar end */
+
+  .titlebox
+  {
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }

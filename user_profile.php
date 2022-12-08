@@ -48,7 +48,7 @@
                             <p class="text-muted mb-4">Canonbury Place, London</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <!-- <button type="button" class="btn btn-primary">Follow</button> -->
-                                <button type="button" class="btn btn-outline-primary ms-1" onclick="location.href = 'user_profile_settings.php'">Edit Profile</button>
+                                <button type="button" class="btn btn-outline-primary greenbutton s-1" onclick="location.href = 'user_profile_settings.php'">Edit Profile</button>
                             </div>
                         </div>
                     </div>
