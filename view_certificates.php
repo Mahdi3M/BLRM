@@ -95,7 +95,7 @@
                 <script>
                     function ViewCerti(obj)
                     {
-                        var x= obj.dataset.val;
+                        var x=obj.dataset.val;
                         document.getElementById("certi").innerHTML = 
                         `<div class="container-fluid py-3">
                             <h1>Certificate Title</h1>
