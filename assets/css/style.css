@@ -88,6 +88,12 @@
     /* Scrollable contents if viewport is shorter than content. */
 }
 
+/* Contacts */
+
+.contact-form .form-control{
+    margin-bottom: 10px;
+}
+
 
 
 /* User_profile css */
