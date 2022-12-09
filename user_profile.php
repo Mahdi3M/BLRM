@@ -80,7 +80,7 @@
 
                         <div class="d-grid gap-2 col-12 mx-auto">
                             <button class="btn btn-primary" type="button">Apply for New Token</button>
-                            <button class="btn btn-primary" type="button">View Certificate</button>
+                            <button class="btn btn-primary" type="button" onclick="location.href = 'view_certificates.php'">View Certificate</button>
                             <button class="btn btn-primary" type="button">View Transactions</button>
                         </div>
                     </div>
