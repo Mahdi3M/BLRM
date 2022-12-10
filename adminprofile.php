@@ -30,11 +30,13 @@
             $("#homenav").removeClass("active");
         </script>
 
-        <script>
-            $("#view_section").removeClass("active");
-            $("#add_user").removeClass("active");
+        <script>            
+            $("#admin_profile").removeClass("active");
+            $("#applicant_list").removeClass("active");
+            $("#change_ownership").removeClass("active");
+            $("#verify_user").removeClass("active");
 
-            $("#admin_control").addClass("active");
+            $("#admin_profile").addClass("active");
         </script>
 
         <!-- <div class="d-flex flex-column align-items-center text-center p-3 py-5">
@@ -44,7 +46,7 @@
                 <span> </span>
         </div> -->
 
-        <div class="container" style="margin-top: 150px;">
+        <div class="container" style="margin: 100px auto;">
             <div class="row">
                 <div class="col-md-4" id="adminimg">
                     <div class="card-body text-center">

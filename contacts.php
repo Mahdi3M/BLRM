@@ -88,7 +88,7 @@
 
                             <div class="md-form">
                                 <label for="message" class="labels">Your message</label>
-                                <textarea type="text" id="message" name="message" class="form-control md-textarea" style="height: 250px; margin-bottom: 20px"></textarea>
+                                <textarea type="text" id="message" name="message" class="form-control md-textarea" style="height: 225px; margin-bottom: 20px"></textarea>
                             </div>
 
                         </div>

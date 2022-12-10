@@ -30,11 +30,13 @@
             $("#homenav").removeClass("active");
         </script>
 
-        <script>
-            $("#admin_control").removeClass("active");
-            $("#add_user").removeClass("active");
+        <script>            
+            $("#admin_profile").removeClass("active");
+            $("#applicant_list").removeClass("active");
+            $("#change_ownership").removeClass("active");
+            $("#verify_user").removeClass("active");
 
-            $("#view_section").addClass("active");
+            $("#change_ownership").addClass("active");
         </script>        
         <div class="container" style="margin-top: 70px;">
             <form>

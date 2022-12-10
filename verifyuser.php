@@ -24,18 +24,20 @@
     <?php include 'header.php'; ?>
     <?php include 'sidebar.php'; ?>
     <div class="admin-page">
+
         <script>
             $("#signinnav").removeClass("active");
             $("#contactsnav").removeClass("active");
             $("#homenav").removeClass("active");
         </script>
 
+        <script>            
+            $("#admin_profile").removeClass("active");
+            $("#applicant_list").removeClass("active");
+            $("#change_ownership").removeClass("active");
+            $("#verify_user").removeClass("active");
 
-        <script>
-            $("#admin_control").removeClass("active");
-            $("#view_section").removeClass("active");
-
-            $("#add_user").addClass("active");
+            $("#verify_user").addClass("active");
         </script>
         
 
