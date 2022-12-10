@@ -100,7 +100,7 @@
                         `<div class="container-fluid py-3">
                             <h1>Certificate Title</h1>
                             <div class="container">
-                                <iframe src="assets/`+x+`" style="position: absolute; top: 13%; left: 0; width: 100%; height: 85%;"></iframe>
+                                <iframe src="assets/`+x+`" style="position: absolute; top: 71px; left: 0; width: 100%; height: 85%;"></iframe>
                             </div>
                         </div>`;
                     }

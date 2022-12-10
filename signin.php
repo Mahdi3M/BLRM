@@ -49,13 +49,13 @@
 
 
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <input type="text" class="form-control" id="nid" placeholder="name@example.com">
                                         <label for="floatingInput">NID</label>
                                     </div>
 
 
                                     <div class="form-floating mb-3">
-                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                        <input type="password" class="form-control" id="password" placeholder="Password">
                                         <label for="floatingPassword">Password</label>
                                     </div>
 
@@ -69,7 +69,7 @@
                                     </div>
 
                                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                        <button type="button" class="btn btn-primary btn-lg" onclick="location.href = 'user_profile.php'">Sign in</button>
+                                        <button type="button" class="btn btn-primary btn-lg" onclick="signin()">Sign in</button>
                                     </div>
 
                                 </form>
@@ -89,6 +89,22 @@
 
     <!-- </section> -->
 
+    <script>
+        function signin()
+        {
+            let nid = document.getElementById("nid").value;
+            let pass = document.getElementById("password").value;
+
+            if(nid=="admin" && pass=="admin")
+            {
+                location.href = "adminprofile.php";
+            }
+            else
+            {
+                location.href = 'user_profile.php'
+            }
+        }
+    </script>
     <?php include 'footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
