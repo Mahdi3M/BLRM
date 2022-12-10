@@ -21,16 +21,15 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
+    <?php include 'header.php'; ?>
+    <?php include 'sidebar.php'; ?>
     <div class="admin-page">
-        <?php include 'header.php'; ?>
-
         <script>
             $("#signinnav").removeClass("active");
             $("#contactsnav").removeClass("active");
             $("#homenav").removeClass("active");
         </script>
 
-        <?php include 'sidebar.php'; ?>
 
         <script>
             $("#admin_control").removeClass("active");
@@ -146,11 +145,10 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-        <?php include 'footer.php'; ?>
+    </div>
+    
+    <?php include 'footer.php'; ?>
 
         <script src="assets/js/main.js"></script>
         <script>

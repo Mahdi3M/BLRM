@@ -19,9 +19,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
+    <?php include 'header.php'; ?>
+    <?php include 'sidebar.php'; ?>
     <div class="admin-page">
-        <?php include 'header.php'; ?>
 
         <script>
             $("#signinnav").removeClass("active");
@@ -29,47 +30,37 @@
             $("#homenav").removeClass("active");
         </script>
 
-        <?php include 'sidebar.php'; ?>
-
         <script>
             $("#admin_control").removeClass("active");
             $("#add_user").removeClass("active");
 
             $("#view_section").addClass("active");
-        </script>
-    </div>
-
-    <div class="row d-flex justify-content-end">
-        <div class="col-lg-10">
-            <div class="container">
-                <form>
-                    <div class="row mb-3">
-                        <!-- <div class="col-lg-6"> -->
-                        <div class="form-group">
-                            <label for="formGroupExampleInput">Previous Owner's NID</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-                        </div>
-                        <!-- </div>
-                    <div class="col-lg-6"> -->
-                        <div class="form-group">
-                            <label for="formGroupExampleInput2">Current Owner's NID</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
-                        </div>
-                        <!-- </div> -->
+        </script>        
+        <div class="container" style="margin-top: 70px;">
+            <form>
+                <div class="row mb-3">
+                    <!-- <div class="col-lg-6"> -->
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Previous Owner's NID</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary" type="button">Proceed</button>
-                        <!-- <button class="btn btn-primary" type="button">View Transactions</button> -->
+                    <!-- </div>
+                <div class="col-lg-6"> -->
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Current Owner's NID</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
                     </div>
-                </form>
-            </div>
+                    <!-- </div> -->
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-primary" type="button">Proceed</button>
+                    <!-- <button class="btn btn-primary" type="button">View Transactions</button> -->
+                </div>
+            </form>
         </div>
     </div>
 
-
-    <div class="fixed-bottom" style="z-index:-1">
-        <?php include 'footer.php'; ?>
-    </div>
+    <?php include 'footer.php'; ?>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
