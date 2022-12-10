@@ -45,7 +45,7 @@
                 <span> </span>
         </div> -->
 
-        <div class="container">
+        <div class="container" style="margin-top: 150px;">
             <div class="row">
                 <div class="col-md-4" id="adminimg">
                     <div class="card-body text-center">
@@ -134,7 +134,7 @@
 
 
         </div>
-        <div class="fixed-bottom">
+        <div class="fixed-bottom" style="z-index:-1;">
             <?php include 'footer.php'; ?>
         </div>
 

@@ -4,3 +4,5 @@
     © 2023 Copyright:
     <span>Blockchain Based Land Record Management </span>
 </div>
+
+<!-- #CCCCCC -->
