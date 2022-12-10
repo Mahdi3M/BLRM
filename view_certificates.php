@@ -63,7 +63,7 @@
 
 
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <?php include 'header.php'; ?>
 
 
@@ -109,11 +109,9 @@
             </div>
         </div>
 
-        <div class="fixed-bottom">
-            <?php include 'footer.php'; ?>
-        </div>
-
     </div>
+
+<?php include 'footer.php'; ?>
 
 
 

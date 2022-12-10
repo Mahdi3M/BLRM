@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <?php include 'header.php'; ?>
 
 
@@ -207,9 +207,7 @@
     </section>
 
 
-    <div class="fixed-bottom">
-        <?php include 'footer.php'; ?>
-    </div>
+    <?php include 'footer.php'; ?>
 
 
 

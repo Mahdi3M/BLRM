@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <div class="admin-page">
         <?php include 'header.php'; ?>
 
@@ -150,9 +150,7 @@
 
         </div>
 
-        <div class="" id="footerdiv">
-            <?php include 'footer.php'; ?>
-        </div>
+        <?php include 'footer.php'; ?>
 
         <script src="assets/js/main.js"></script>
         <script>
