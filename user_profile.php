@@ -143,6 +143,55 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="card mb-4 halkagrey">
+                                <div class="card-body">
+    
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            <p class="mb-0"><b>Tax Paid</b></p>
+                                        </div>
+                                    </div>
+                                    <!-- <hr> -->
+                                    <p></p>
+    
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            <p class="mb-0">100000 BDT</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card mb-4 halkagrey">
+                                <div class="card-body">
+    
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            <p class="mb-0"><b>Tax Due</b></p>
+                                        </div>
+                                    </div>
+                                    <!-- <hr> -->
+                                    <p></p>
+    
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            <p class="mb-0">No Due</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                     <!-- <div class="row">
                         <div class="col-md-6">
                             <div class="card mb-4 mb-md-0 halkagrey">
@@ -199,8 +248,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
-                    </div>
+                        </div>
+                    </div> -->
+
                 </div>
             </div>
         </div>
