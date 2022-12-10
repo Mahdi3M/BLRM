@@ -37,7 +37,9 @@
 
             $("#view_section").addClass("active");
         </script>
-
+    </div>
+    
+    <div class="fixed-bottom" style="z-index=-1">
         <?php include 'footer.php'; ?>
     </div>
 
