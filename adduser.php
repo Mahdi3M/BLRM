@@ -38,7 +38,7 @@
 
             $("#add_user").addClass("active");
         </script>
-
+        
 
         <div class="container" style="padding:20px">
             <div class="titlebox">Enter User's NID No.</div>

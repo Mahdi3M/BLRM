@@ -44,8 +44,8 @@
                         <div class="card-body text-center">
                             <img src="assets/img/profilepic.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                             <h5 class="my-3">Emma Watson</h5>
-                            <p class="text-muted mb-1">Full Stack Actor</p>
-                            <p class="text-muted mb-4">Canonbury Place, London</p>
+                            <p class="text-muted mb-4">Full Stack Actor</p>
+                            <!-- <p class="text-muted mb-4">Canonbury Place, London</p> -->
                             <div class="d-flex justify-content-center mb-2">
                                 <!-- <button type="button" class="btn btn-primary">Follow</button> -->
                                 <button type="button" class="btn btn-outline-primary greenbutton s-1" onclick="location.href = 'user_profile_settings.php'">Edit Profile</button>
@@ -102,7 +102,7 @@
                                     <p class="mb-0">Email</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">example@example.com</p>
+                                    <p class="text-muted mb-0">emma@gmail.com</p>
                                 </div>
                             </div>
                             <hr>
@@ -129,12 +129,21 @@
                                     <p class="mb-0">Address</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">Bay Area, San Francisco, CA</p>
+                                    <p class="text-muted mb-0">Canonbury Place, London</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <p class="mb-0">Verification Status</p>
+                                </div>
+                                <div class="col-sm-9">
+                                    <p class="text-muted mb-0"><i class="fa-sharp fa-solid fa-circle-xmark" style="color: red;"></i></i></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-md-6">
                             <div class="card mb-4 mb-md-0 halkagrey">
                                 <div class="card-body">
@@ -190,7 +199,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
