@@ -14,7 +14,7 @@
             <span>Change Ownership</span>
         </a>
         <a href="verifyuser.php" class="list-group-item list-group-item-action py-2 ripple" id="verify_user">
-            <i class="fas fa-users fa-fw me-3"></i>
+            <i class="fas fa-check fa-fw me-3"></i>
             <span>Verify User</span>
         </a>
     </div>
