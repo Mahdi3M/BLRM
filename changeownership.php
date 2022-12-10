@@ -38,7 +38,35 @@
             $("#view_section").addClass("active");
         </script>
     </div>
-    
+
+    <div class="row d-flex justify-content-end">
+        <div class="col-lg-10">
+            <div class="container">
+                <form>
+                    <div class="row mb-3">
+                        <!-- <div class="col-lg-6"> -->
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Previous Owner's NID</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                        </div>
+                        <!-- </div>
+                    <div class="col-lg-6"> -->
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Current Owner's NID</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-primary" type="button">Proceed</button>
+                        <!-- <button class="btn btn-primary" type="button">View Transactions</button> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
     <div class="fixed-bottom" style="z-index:-1">
         <?php include 'footer.php'; ?>
     </div>
