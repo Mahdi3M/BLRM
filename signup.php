@@ -38,46 +38,46 @@
 
 
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                                         <label for="floatingInput">NID</label>
                                     </div>
 
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                                         <label for="floatingInput">Name</label>
                                     </div>
 
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                                         <label for="floatingInput">Mobile No</label>
                                     </div>
 
                                     <div class="form-floating mb-3">
-                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                                         <label for="floatingInput">Email address</label>
                                     </div>
 
 
                                     <div class="form-floating mb-3">
-                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                                         <label for="floatingPassword">Password</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                                         <label for="floatingPassword">Confirm Password</label>
                                     </div>
 
 
 
                                     <div class="form-check d-flex justify-content-center mb-5">
-                                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" required>
                                         <label class="form-check-label" for="form2Example3">
                                             I agree all statements in <a href="#!">Terms of service</a>
                                         </label>
                                     </div>
 
                                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                        <button type="button" class="btn btn-primary btn-lg" onclick="location.href = 'user_profile.php'">Sign up</button>
+                                        <button type="button" class="btn btn-primary btn-lg" onclick="location.href = 'otpform.php'">Sign up</button>
                                     </div>
 
                                 </form>
