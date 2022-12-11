@@ -58,7 +58,7 @@
                         <p class="text-muted mb-4"></p>
 
                         <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" type="button">Edit Profile</button>
+                            <button class="btn btn-primary greenbutton" type="button">Edit Profile</button>
                         </div>
 
                     </div>

@@ -64,8 +64,8 @@
                         <p class="text-muted mb-4">Canonbury Place, London</p>
 
                         <div class="d-grid gap-2 col-8 mx-auto">
-                            <button class="btn btn-primary" type="button">Upload Fingerprint</button>
-                            <button class="btn btn-primary" type="button">Verify</button>
+                            <button class="btn btn-primary greenbutton" type="button">Upload Fingerprint</button>
+                            <button class="btn btn-primary greenbutton" type="button">Verify</button>
                             <!-- <button class="btn btn-primary" type="button">View Transactions</button> -->
                         </div>
 

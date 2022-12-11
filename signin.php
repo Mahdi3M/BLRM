@@ -71,7 +71,7 @@
                                     </div>
 
                                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                        <button type="button" class="btn btn-primary btn-lg" onclick="signin()">Sign in</button>
+                                        <button type="button" class="btn btn-primary btn-lg greenbutton" onclick="signin()">Sign in</button>
                                     </div>
 
                                 </form>
