@@ -51,7 +51,7 @@
                     Didn't receive the code? <a href="signup.php">Resend Code</a>
                 </label>
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-primary otp-btn" onclick="location.href = 'user_profile.php'">Confirm</button>
+                    <button type="button" class="btn btn-primary otp-btn greenbutton" onclick="location.href = 'user_profile.php'">Confirm</button>
                 </div>
             </div>
         </div>
