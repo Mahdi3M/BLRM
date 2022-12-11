@@ -28,18 +28,6 @@
 
     <section>
         <div class="container py-5">
-            <!-- <div class="row">
-                <div class="col">
-                    <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
-                        <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">User</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">User Profile</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div> -->
-
             <div class="row" style="margin-top: 80px;">
                 <div class="col-lg-4">
                     <div class="card mb-4 halkagrey">
@@ -47,43 +35,16 @@
                             <img src="assets/img/profilepic.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                             <h5 class="my-3">Emma Watson</h5>
                             <p class="text-muted mb-4">Full Stack Actor</p>
-                            <!-- <p class="text-muted mb-4">Canonbury Place, London</p> -->
                             <div class="d-flex justify-content-center mb-2">
-                                <!-- <button type="button" class="btn btn-primary">Follow</button> -->
                                 <button type="button" class="btn btn-outline-primary greenbutton s-1" onclick="location.href = 'user_profile_settings.php'">Edit Profile</button>
                             </div>
                         </div>
                     </div>
                     <div class="mb-4 mb-lg-0">
-                        <!-- <div class="card-body p-0">
-                            <ul class="list-group list-group-flush rounded-3">
-                                <li class="list-group-item d-flex justify-content-between align-items-center p-3 halkagrey">
-                                    <i class="fas fa-globe fa-lg text-warning"></i>
-                                    <p class="mb-0">https://mdbootstrap.com</p>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center p-3 halkagrey">
-                                    <i class="fab fa-github fa-lg" style="color: #333333;"></i>
-                                    <p class="mb-0">mdbootstrap</p>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center p-3 halkagrey">
-                                    <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
-                                    <p class="mb-0">@mdbootstrap</p>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center p-3 halkagrey">
-                                    <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
-                                    <p class="mb-0">mdbootstrap</p>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center p-3 halkagrey">
-                                    <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
-                                    <p class="mb-0">mdbootstrap</p>
-                                </li>
-                            </ul>
-                        </div> -->
-
                         <div class="d-grid gap-2 col-12 mx-auto">
-                            <button class="btn btn-primary" type="button">Apply for New Token</button>
-                            <button class="btn btn-primary" type="button" onclick="location.href = 'view_certificates.php'">View Certificate</button>
-                            <button class="btn btn-primary" type="button">View Transactions</button>
+                            <button class="btn btn-primary greenbutton" type="button">Apply for New Token</button>
+                            <button class="btn btn-primary greenbutton" type="button" onclick="location.href = 'view_certificates.php'">View Certificate</button>
+                            <button class="btn btn-primary greenbutton" type="button">View Transactions</button>
                         </div>
                     </div>
                 </div>

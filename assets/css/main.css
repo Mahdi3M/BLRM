@@ -123,6 +123,23 @@
     color: red !important;
 }
 
+.greenbutton{
+    background-color: #075E24 !important;
+    border-color: #075E24 !important;
+    color: white !important;
+}
+.greenbutton:hover
+{
+    background-color: #1a8a3f !important;
+    border-color: #1a8a3f !important;
+}
+.greenbutton:active, .greenbutton:visited, .greenbutton:focus
+{
+    background-color: #1a8a3f !important;
+    border-color: #1a8a3f !important;
+}
+
+
 /* User profile ends */
 
 
