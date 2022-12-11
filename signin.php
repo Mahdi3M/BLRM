@@ -41,7 +41,7 @@
             <div class="col-lg-12 col-xl-11">
                 <div class="text-black" style="border-radius: 25px;">
                     <div class="card-body p-md-5" style="margin-top: 80px;">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center align-items-center">
                             <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
                                 <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign In</p>
@@ -77,9 +77,9 @@
                                 </form>
 
                             </div>
-                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center justify-content-center order-1 order-lg-2">
 
-                                <img src="assets/img/signin.webp" class="img-fluid" alt="Sample image">
+                                <img src="assets/img/logo2.png" class="img-fluid" alt="Sample image">
 
                             </div>
                         </div>
