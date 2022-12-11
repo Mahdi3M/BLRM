@@ -151,10 +151,15 @@
     text-align: center;
     font-family: arimo;
     font-size: 1.2rem;
-    background: black;
+    background: rgb(214, 214, 214);
 
 }
 
+.otp-btn
+{
+    width: 150px;
+    margin: 20px;
+}
 
 /* user-profile new  */
 .halkagrey {

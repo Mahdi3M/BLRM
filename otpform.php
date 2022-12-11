@@ -35,15 +35,25 @@
     </script>
 
     <div class="container">
-        <div class="otpbox">
-            <div class="userinput">
-                <input type="text" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
-                <input type="text" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
-                <input type="text" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
-                <input type="text" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')">
-                <input type="text" id="fifth" maxlength="1">
+        <div class="vh-100 d-flex align-items-center d-flex justify-content-center">
+            <div class="otpbox">
+                <h1 class="d-flex justify-content-center mb-5">OTP Verification</h1>
+                <h5 class="mb-3">A Verification code is sent to your mobile through SMS</h5>
+                <div class="userinput mb-3">
+                    <input type="text" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+                    <input type="text" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+                    <input type="text" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+                    <input type="text" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')">
+                    <input type="text" id="fifth" maxlength="1">
+                </div>
+
+                <label class="form-check-label" for="form2Example3">
+                    Didn't receive the code? <a href="signup.php">Resend Code</a>
+                </label>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary otp-btn" onclick="location.href = 'user_profile.php'">Confirm</button>
+                </div>
             </div>
-            <button>CONFIRM</button>
         </div>
     </div>
 
@@ -52,6 +62,7 @@
     <?php include 'footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
