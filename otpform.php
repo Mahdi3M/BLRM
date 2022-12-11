@@ -13,9 +13,13 @@
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
+
 
 <body class="d-flex flex-column min-vh-100">
     <?php include 'header.php'; ?>
@@ -29,6 +33,19 @@
 
         //document.getElementById
     </script>
+
+    <div class="container">
+        <div class="otpbox">
+            <div class="userinput">
+                <input type="text" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+                <input type="text" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+                <input type="text" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+                <input type="text" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')">
+                <input type="text" id="fifth" maxlength="1">
+            </div>
+            <button>CONFIRM</button>
+        </div>
+    </div>
 
 
 
