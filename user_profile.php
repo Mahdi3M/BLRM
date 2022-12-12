@@ -101,7 +101,10 @@
                                     <p class="mb-0">Verification Status</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0"><i class="fa-sharp fa-solid fa-circle-xmark" style="color: red;"></i></i></p>
+                                    <p class="text-muted mb-0">
+                                        <!-- <i class="fa-sharp fa-solid fa-circle-xmark" style="color: red;"></i></i> -->
+                                        <i class="bi bi-check-circle-fill" style="color: green;"></i>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +115,7 @@
                         <div class="col-md-6">
                             <div class="card mb-4 halkagrey">
                                 <div class="card-body">
-    
+
                                     <div class="row">
                                         <div class="col-sm-9">
                                             <p class="mb-0"><b>Tax Paid</b></p>
@@ -120,7 +123,7 @@
                                     </div>
                                     <!-- <hr> -->
                                     <p></p>
-    
+
                                     <div class="row">
                                         <div class="col-sm-9">
                                             <p class="mb-0">100000 BDT</p>
@@ -133,18 +136,24 @@
                         <div class="col-md-6">
                             <div class="card mb-4 halkagrey">
                                 <div class="card-body">
-    
                                     <div class="row">
-                                        <div class="col-sm-9">
-                                            <p class="mb-0"><b>Tax Due</b></p>
+                                        <div class="col-7">
+                                        <div class="row">
+                                            <div class="col-sm-9">
+                                                <p class="mb-0"><b>Tax Due</b></p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <!-- <hr> -->
-                                    <p></p>
-    
-                                    <div class="row">
-                                        <div class="col-sm-9">
-                                            <p class="mb-0">No Due</p>
+                                        <!-- <hr> -->
+                                        <p></p>
+
+                                        <div class="row">
+                                            <div class="col-sm-9">
+                                                <p class="mb-0">No Due</p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="col-5 d-flex align-items-center justify-content-center">
+                                        <button type="button" class="btn btn-primary greenbutton" onclick="location.href = 'paybill.php'">Pay Tax</button>
                                         </div>
                                     </div>
 
