@@ -24,61 +24,33 @@
 
     <script>
         $("#homenav").removeClass("active");
-        // $("#signinnav").removeClass("active");
+        $("#signinnav").removeClass("active");
         $("#contactsnav").removeClass("active");
-
-        $("#signinnav").addClass("active");
-
-        //document.getElementById
     </script>
-
-
-    <!-- <section class="vh-100" style="background-color: #eee;"> -->
-    <!-- <div class="container h-100" style="margin-top: 80px;">
-        <h1>Choose Your Billing Option</h1>
-
-        <div class="row">
-            <div class="col">
-                <img src="assets/img/nagad.png" alt="">
-            </div>
-            <div class="col">
-                <img src="assets/img/rocket.png" alt="">
-            </div>
-            <div class="col">
-                <img src="assets/img/nagad.png" alt="">
-            </div>
-        </div>
-    </div> -->
-    <!-- </section> -->
 
     <div class="container">
         <div style="margin-top: 150px;">
-            <h1>Choose Your Billing Option</h1>
-            <div class="card-group mt-5" >
-                <div class="card">
-                    <img src="assets/img/bkash.png" class="card-img-top" alt="..." height=200 width=200>
+            <h1 class="text-center">Choose Your Billing Option</h1>
+            <a href="#" class="text-decoration-none d-flex justify-content-evenly" style="color: black; margin-top: 5rem">
+                <div class="card mx-auto shadow rounded" style="width: 18rem;">
+                    <img src="assets/img/BKash-Icon-Logo.wine.svg" class="card-img-top border" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Bkash</h5>
+                        <h3 class="card-text text-center">BKash</h3>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="assets/img/rocket.png" class="card-img-top" alt="..." height=200 width=200>
+                <div class="card mx-auto shadow rounded" style="width: 18rem;">
+                    <img src="assets/img/Nagad-Vertical-Logo.wine.svg" class="card-img-top border" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Nagad</h5>
-                    
+                        <h3 class="card-text text-center">Nagad</h3>
+                    </div>
+                </div>                
+                <div class="card mx-auto shadow rounded" style="width: 18rem;">
+                    <img src="assets/img/184568.svg" class="card-img-top border" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text text-center">Rocket</h3>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="assets/img/nagad.png" class="card-img-top" alt="..." height=200 width=200>
-                    <div class="card-body">
-                        <h5 class="card-title">Rocket</h5>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="container m-5 d-flex d-flex justify-content-center">
-                <button class="btn btn-primary" type="submit">Pay Bill</button>
-            </div>
+            </a>
         </div>
     </div>
 
