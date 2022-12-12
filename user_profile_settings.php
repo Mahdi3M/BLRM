@@ -27,7 +27,7 @@
             <div class="col-md-3 border-right">
                 <div class="d-flex flex-column align-items-center text-center p-3 py-3"><img class="rounded-circle mt-5" width="150px" src="assets/img/profilepic.png"><span class="font-weight-bold">Emma Watson</span><span class="text-black-50">emma@gmail.com</span><span> </span></div>
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Change Profile Picture</button>
+                    <button type="button" class="btn btn-outline-success btn-rounded" data-mdb-ripple-color="dark">Change Profile Picture</button>
                 </div>
             </div>
             <div class="col-md-5 border-right">
@@ -54,7 +54,7 @@
                         <div class="col-md-6"><label class="labels">Country</label><input type="text" class="form-control" placeholder="country" value=""></div>
                         <div class="col-md-6"><label class="labels">State/Region</label><input type="text" class="form-control" value="" placeholder="state"></div>
                     </div>
-                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button" onclick="location.href = 'user_profile.php'">Save Profile</button></div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button greenbutton" type="button" onclick="location.href = 'user_profile.php'">Save Profile</button></div>
                 </div>
             </div>
             <!-- <div class="col-md-4">
