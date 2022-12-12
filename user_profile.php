@@ -42,9 +42,9 @@
                     </div>
                     <div class="mb-4 mb-lg-0">
                         <div class="d-grid gap-2 col-12 mx-auto">
-                            <button class="btn btn-primary greenbutton" type="button">Apply for New Token</button>
+                            <button class="btn btn-primary greenbutton" type="button" onclick="location.href = 'paybill.php'">Apply for New Token</button>
                             <button class="btn btn-primary greenbutton" type="button" onclick="location.href = 'view_certificates.php'">View Certificate</button>
-                            <button class="btn btn-primary greenbutton" type="button">View Transactions</button>
+                            <button class="btn btn-primary greenbutton" type="button" onclick="location.href = 'history.php'">View Transactions</button>
                         </div>
                     </div>
                 </div>
