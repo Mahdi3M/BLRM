@@ -97,6 +97,12 @@
             let nid = document.getElementById("nid").value;
             let pass = document.getElementById("password").value;
 
+            //document.getElementById("signinnav").style.display = "none";
+
+            setCookie("signin",1);
+
+            //alert(getCookie("signin"));
+
             if(nid=="admin" && pass=="admin")
             {
                 location.href = "adminprofile.php";
@@ -108,6 +114,8 @@
         }
     </script>
     <?php include 'footer.php'; ?>
+
+    <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
