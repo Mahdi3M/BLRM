@@ -68,8 +68,8 @@
                     <div class="card-body text-center">
                         <img src="assets/img/profilepic.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                         <h5 class="my-3">Emma Watson</h5>
-                        <p class="text-muted mb-1">Full Stack Actor</p>
-                        <p class="text-muted mb-4">Canonbury Place, London</p>
+                        <p class="text-muted mb-4">Full Stack Actor</p>
+                        <!-- <p class="text-muted mb-4">Canonbury Place, London</p> -->
 
                         <div class="d-grid gap-2 col-8 mx-auto">
                             <button class="btn btn-primary greenbutton" type="button" onclick="location.href = 'fingerprint.php'">Upload Fingerprint</button>
@@ -165,8 +165,8 @@
                     <div class="card-body text-center">
                         <img src="assets/img/malfoy.jpg" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                         <h5 class="my-3">Draco Malfoy</h5>
-                        <p class="text-muted mb-1">Full Stack Actor</p>
-                        <p class="text-muted mb-4">Canonbury Place, London</p>
+                        <p class="text-muted mb-4">Wizard</p>
+                        <!-- <p class="text-muted mb-4">Canonbury Place, London</p> -->
 
                         <div class="d-grid gap-2 col-8 mx-auto">
                             <button class="btn btn-primary greenbutton" type="button" onclick="location.href = 'fingerprint.php'">Upload Fingerprint</button>
@@ -238,7 +238,7 @@
                                     <p class="mb-0">Address</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">Bay Area, San Francisco, CA</p>
+                                    <p class="text-muted mb-0">Wiltshire, England</p>
                                 </div>
                             </div>
                             <hr>

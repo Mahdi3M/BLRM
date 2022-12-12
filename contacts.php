@@ -98,7 +98,7 @@
                     <div class="row">
                     <!--Grid row-->
                         <div class="text-left text-md-left">
-                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                            <a class="btn btn-primary greenbutton" onclick="document.getElementById('contact-form').submit();">Send</a>
                         </div>
                         <div class="status"></div>
                     </div>

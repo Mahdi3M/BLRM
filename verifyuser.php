@@ -60,8 +60,8 @@
                     <div class="card-body text-center">
                         <img src="assets/img/profilepic.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                         <h5 class="my-3">Emma Watson</h5>
-                        <p class="text-muted mb-1">Full Stack Actor</p>
-                        <p class="text-muted mb-4">Canonbury Place, London</p>
+                        <p class="text-muted mb-4">Full Stack Actor</p>
+                        <!-- <p class="text-muted mb-4">Canonbury Place, London</p> -->
 
                         <div class="d-grid gap-2 col-8 mx-auto">
                             <button class="btn btn-primary greenbutton" type="button">Upload Fingerprint</button>
