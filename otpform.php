@@ -51,7 +51,7 @@
                     Didn't receive the code? <a href="signup.php">Resend Code</a>
                 </label>
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-primary otp-btn greenbutton" onclick="location.href = 'user_profile.php'">Confirm</button>
+                    <button type="button" class="btn btn-primary otp-btn greenbutton" onclick="signupgo()">Confirm</button>
                 </div>
             </div>
         </div>
@@ -60,6 +60,13 @@
 
 
     <?php include 'footer.php'; ?>
+    <script>
+        function signupgo()
+        {
+            setCookie("signin",1);
+            location.href = 'user_profile.php'
+        }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
